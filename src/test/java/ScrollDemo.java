@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 public class ScrollDemo extends BaseTest {
 
     @Test
-    public void scrollDemoTest() throws InterruptedException {
+    public void scrollDemoTest() {
 
         driver.findElement(AppiumBy.accessibilityId("Views")).click();
 

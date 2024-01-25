@@ -67,6 +67,11 @@ public class BaseTest {
                 "percent", 0.20
         ));
     }
+
+    public void startActivity(String appPackageAndAppActivity) {
+        ((JavascriptExecutor) driver).executeScript("mobile: startActivity" ,
+                ImmutableMap.of("intent", appPackageAndAppActivity));
+    }
     @AfterClass
     public void tearDown() {
 
