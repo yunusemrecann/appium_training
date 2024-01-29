@@ -17,7 +17,7 @@ public class ScrollDemo extends BaseTest {
         // where to scroll is known prior
         //driver.findElement(AppiumBy.androidUIAutomator("new UiScrollable(new UiSelector()).scrollIntoView(text(\"WebView\"));"));
 
-    // No prior idea
+        // No prior idea
         scrollToEndAction();
     }
 }
